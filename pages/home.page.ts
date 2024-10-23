@@ -12,10 +12,11 @@ class HomePage {
         this.page = page;
         this.getStartedBtn = page.locator("#get-started");
         this.headingTxt = page.getByText('Think different. Make different.');
-        this.homeLink = page.locator('#primary-menu:has-text("Home")');
+        // this.homeLink = page.locator('#zak-primary-menu:has-text("Home")');
+        this.homeLink = page.locator('#zak-primary-menu .menu-item-home')
         this.searchIcon = page.locator('//*[contains(@class, "zak-header-actions--desktop")]//*[@class="zak-header-search__toggle"]');
-        this.navLinks = page.locator('#primary-menu li[id*=menu-item]');
-        this.navLink = page.locator('#primary-menu li[id*=menu-item]').nth(3);
+        this.navLinks = page.locator('#zak-primary-menu li[id*=menu-item]');
+        this.navLink = page.locator('#zak-primary-menu li[id*=menu-item]').nth(3);
     }
 
     getNavLinksText() {

@@ -13,6 +13,8 @@ test.describe('Home', () => {
         await homePage.navigate();
     })
 
+    test.use({ storageState: 'notLoggedInState.json' })
+    
     test('Open Home page and verify title', async ({ page }) => {
         //verify title 
         await expect(page).toHaveTitle("Practice E-Commerce Site – SDET Unicorns");

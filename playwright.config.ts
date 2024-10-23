@@ -26,7 +26,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: 'html',
   // reporter: [['html'], ['list']],
-  reporter: [['allure-playwright'], ['line']],
+  reporter: [['allure-playwright', {outputFolder: 'test-results'}], ['line']],
 
   /* Signed-in: Global Login */
   globalSetup: require.resolve('./utils/global-setup'),
@@ -47,7 +47,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: true },
+      use: { ...devices['Desktop Chrome'], headless: false },
     },
 
     // {
