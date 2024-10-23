@@ -1,4 +1,4 @@
-# Playwright framework (Typescript)
+# Playwright framework
 
 - End to End test automation framework using `Playwright` and `Typescript`
 
