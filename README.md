@@ -33,7 +33,8 @@ npm install
 - [x] Setup Page Object Model
 - [x] Debugging with Playwright
 - [x] Setup Test Automation Framework
-- [x] Optimizing Test Framework
+- [x] Optimizing Test Framework 
+    - ESLint setup , Reuse Base URL, Before Hook, Randomize data, Parameterize tests
 - [x] Handling Authentication Tests
 - [x] Building Beautiful Reports
 - [x] Paralell & Cross Browser testing
