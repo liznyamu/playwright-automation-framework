@@ -6,6 +6,7 @@
 ## Installation
 
 Use npm to install required dependencies.
+- use node verision >18.18.0
 
 ```bash
 npm install
