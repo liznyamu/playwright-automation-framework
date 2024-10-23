@@ -3,7 +3,6 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-package-lock.json
 loggedInState.json
 notLoggedInState.json
 allure-*
