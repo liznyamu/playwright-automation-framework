@@ -7,3 +7,4 @@ node_modules/
 loggedInState.json
 notLoggedInState.json
 allure-*
+tests/deel/
