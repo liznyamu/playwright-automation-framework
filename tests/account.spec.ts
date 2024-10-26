@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('My Account', () => {
-  test('Access Orders', async ({ page }) => {
+  test('Access Orders List', async ({ page }) => {
     await page.goto('/my-account')
     await page.locator(`li a[href*='orders']`).click()
     await expect(page).toHaveURL(/.*orders/)
